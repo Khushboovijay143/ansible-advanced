@@ -8,4 +8,4 @@
 
 [nginx:vars]
 ansible_user=centos
-ansible_password=DevOps321s
+ansible_password=DevOps321
