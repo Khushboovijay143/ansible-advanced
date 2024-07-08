@@ -102,7 +102,7 @@
     - name: Load catalogue data
       tags:
       - installation
-      ansible.builtin.command: mongo --host <localhost> < /app/schema/catalogue.js
+      ansible.builtin.command: mongo --host mongodb.vijaydeepak0812.online < /app/schema/catalogue.js
 
     - name: Restart Catalogue
       tags:
